@@ -3,12 +3,7 @@
 // need to run as live server for this to work. Later make fileloader.
 // load all
 const testNames = [
-        './hci1-2023-processed.json',
-        './hci2-2023-processed.json',
-        './hci3-2023-processed.json',
-        './MMI-proj1-2024-final.json',
-        './MMI-proj2-2024-final.json',
-        './MMI-proj3-2024-final.json'
+   // list of local json files with data
         ];
 
  Promise.all(testNames.map(test => fetch(test)))
